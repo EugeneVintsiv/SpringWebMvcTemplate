@@ -6,19 +6,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>Insert title here</title>
 	<jsp:include page="/resources/includes/bootstrap-include.jsp" />
-	<link rel="stylesheet" type="text/css" href="${pageContext.servletContext.contextPath}/resources/css/master-template.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.servletContext.contextPath}/resources/css/home-page.css">
 	
 </head>
 <body>
 	<div class="container">
 	  <div class="jumbotron">
 	    <h1>Bootstrap Tutorial</h1>
-		  <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-		  responsive, mobile-first projects on the web.</p>
-		  </div>
-		  <p>This is some text.</p>
-		  <p>This is another text.</p>
-		<div id="test">master-template.css Test</div>
+	    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+	    responsive, mobile-first projects on the web.</p>
+	  </div>
+	  <p>This is some text.</p>
+	  <p>This is another text.</p>
 	</div>
+	<div id="test">Test</div>
 </body>
 </html>
