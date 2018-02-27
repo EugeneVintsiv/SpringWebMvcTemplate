@@ -55,7 +55,6 @@ public class TestEntityHibernateController {
 	
 	@GetMapping("/delete")
 	public String deleteTestEntity(@RequestParam("deleteTestEntity") int id) {
-		System.out.println(id);
 		testEntityHibernateService.deleteTestEntity(id);
 		return "redirect:/testentityhibernate/list";
 	}

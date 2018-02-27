@@ -42,7 +42,6 @@ public class TestEntityHibernateDaoImpl implements TestEntityHibernateDao{
 
 	@Override
 	public void deleteTestEntity(int id) {
-		System.out.println("!! " + id);
 		Session currentSession = sessionFactory.getCurrentSession();
 		Query theQuery = currentSession.createQuery("delete from TestEntity WHERE id=:testEntityId");
 		theQuery.setParameter("testEntityId", id);
