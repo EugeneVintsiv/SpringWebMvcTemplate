@@ -80,6 +80,14 @@
 		<artifactId>commons-dbcp</artifactId>
 		<version>1.4</version>
 	</dependency>
+	    
+	    <!-- MySql -->
+        
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
+        </dependency>
 
 	<!-- Hibernate -->
 	<dependency>
